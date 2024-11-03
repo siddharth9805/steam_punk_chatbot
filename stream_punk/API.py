@@ -3,4 +3,4 @@ from chatbot import views
 
 api = NinjaAPI()
 
-api.add_router("/chatbot_api/", )    # You can add a router as an object
+api.add_router("/chatbot_api/", views.router)    # You can add a router as an object
