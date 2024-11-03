@@ -4,7 +4,6 @@ from .Chatbot_Logic import ChatBot
 
 class ResponseSchema(Schema):
     message: str
-    
 
 router = Router()
 chatbot = ChatBot()
