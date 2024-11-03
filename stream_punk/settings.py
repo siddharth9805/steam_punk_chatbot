@@ -32,9 +32,9 @@ CORS_ALLOW_HEADERS = ['content-type', 'authorization']
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
-CORS_ALLOWED_ORIGINS = [
-    'http://127.0.0.1', 'http://localhost'
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'http://127.0.0.1', 'http://localhost'
+# ]
 
 
 # Application definition
